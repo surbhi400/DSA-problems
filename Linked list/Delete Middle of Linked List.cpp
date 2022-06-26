@@ -10,7 +10,7 @@ Node* deleteMid(Node* head)
         length++;
         temp=temp->next;
     }
-  // Our approach is to point the element preceding the middle element to element succedding the middle element and point the middle element to null.
+  // Our approach is to point the element preceding the middle element to element succeeding the middle element and point the middle element to null.
     temp=head;
     int del= (length/2);
     while(del>1){
