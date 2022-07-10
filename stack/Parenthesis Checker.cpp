@@ -13,7 +13,7 @@ class Solution
             if(ch=='{' || ch=='(' || ch=='['){ 
                 st.push(ch);
             }
-          // In the string we will further check that whether stack is empty or not and if the closing brackets of the string matches the opening brackets of the stack then pop the bracket. 
+          // Now till the stack becomes empty, we will check that if the closing brackets of the string matches the opening brackets of the stack and it it does then pop the bracket. 
             else{
                 if(!st.empty()){
                     char top= st.top();
