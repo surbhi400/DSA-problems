@@ -1,4 +1,4 @@
-// Inorder traversal using iterative method(1 stack).
+
 class Solution {
   public:
     // Function to return a list containing the inorder traversal of the tree.
