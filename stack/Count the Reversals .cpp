@@ -31,7 +31,7 @@ int countRev (string s)
     
      int n = s.length();
    
-   if( n&1 ) return -1;
+   if( n%2!=0 ) return -1;
    
    // step 2 remove valid part
     stack<char> st;
