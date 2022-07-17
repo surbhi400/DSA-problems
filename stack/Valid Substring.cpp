@@ -7,7 +7,7 @@ Input: S = "(()("
 Output: 2
 Explanation: The longest valid 
 substring is "()". Length = 2. 
-Expected Time Complexity:O(n)
+Expected Time Complexity: O(n)
 Expected Auxiliary Space: O(1)   
 */
 
