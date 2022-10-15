@@ -4,7 +4,7 @@ Node* deleteMid(Node* head)
   //we are initialising both the pointers from head.
     Node* temp=head;
     Node* newtemp=head;
-  //To find te length of the linked list.
+  //To find te length of the linked list
     int length=0;
     while(temp!=NULL){
         length++;
